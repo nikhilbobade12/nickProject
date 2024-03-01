@@ -1,0 +1,205 @@
+/* Navbar CSS styles */
+nav {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+}
+
+nav .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav .logo a {
+    color: #fff;
+    font-size: 24px;
+    text-decoration: none;
+}
+
+nav .menu ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav .menu ul li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+nav .menu ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+img{
+    size: 10px;
+    height: 40px;
+    width: 40px;
+}
+/* Homepage CSS styles */
+header {
+    background-color: orangered;
+    color:white;
+    padding: 40px 0;
+    text-align: center;
+}
+
+/* Container CSS styles */
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+/* Search bar CSS styles */
+.search-bar {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.search-bar form {
+    display: flex;
+    justify-content: center;
+}
+
+.search-bar input[type="text"],
+.search-bar input[type="date"] {
+    padding: 10px;
+    margin-right: 10px;
+    border: none;
+    border-radius: 5px;
+    outline: none;
+}
+
+.search-bar input[type="submit"] {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #fff;
+    color: #007bff;
+    cursor: pointer;
+}
+
+/* Featured Halls CSS styles */
+.featured-heading {
+    text-align: center;
+    color: #333;
+    margin-bottom: 40px;
+    text-transform: uppercase;
+}
+
+.hall-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.hall-item {
+    width: calc(33.33% - 50px);
+    background-color: #fff;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: box-shadow 0.3s ease;
+}
+
+.hall-item:hover {
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.hall-item img {
+    height:40%;
+    width: 100%;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+.hall-item h3 {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.hall-item p {
+    color: #666;
+    margin-bottom: 5px;
+}
+
+.hall-item a {
+    display: inline-block;
+    padding: 8px 20px;
+    background-color: #007bff;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.hall-item a:hover {
+    background-color: #0056b3;
+}
+
+/* Contact Form CSS styles */
+.contact-form {
+    background-color: #f9f9f9;
+    padding: 40px 0;
+    display: flex;
+    justify-content: center;
+}
+
+.contact-form .container {
+    max-width: 600px;
+}
+
+.contact-form h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.contact-form form label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+.contact-form form input[type="text"],
+.contact-form form input[type="email"],
+.contact-form form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.contact-form form textarea {
+    height: 150px;
+}
+
+.contact-form form input[type="submit"] {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #007bff;
+    color: #fff;
+    cursor: pointer;
+}
+
+.contact-form form input[type="submit"]:hover {
+    background-color: #0056b3;
+}
+
+/* Footer CSS styles */
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+
+footer .container {
+    max-width: 1200px;
+}
